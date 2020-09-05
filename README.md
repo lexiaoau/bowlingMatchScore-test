@@ -53,7 +53,7 @@ Expected result should be as following:
 
 In App.py , function "roll(noOfPins )" will accept a number as pins in this roll and put it into records for score calculation.
 
-In App.py , function "rollAll(noOfPins )" will accept a list of number as pins in all rolls and put it into records for score calculation.   *Be careful* : this function will use provided list to replace/overwrite all previously provided pin records. This function provide a convenient method for providing all roll records, comparing to input one by one using "roll()" function. 
+In App.py , function "rollAll(noOfPins )" will accept a list of number as pins in all rolls and put it into records for score calculation.   *****Be careful***** : this function will use provided list to replace/overwrite all previously provided pin records. This function provide a convenient method for providing all roll records, comparing to input one by one using "roll()" function. 
 
 In App.py , function "score()" will return total score as a number.
 

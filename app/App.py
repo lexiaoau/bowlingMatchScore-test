@@ -6,10 +6,10 @@ CONST_MAX_PIN_PER_FRAME  = 10
 FULL_STRIKE_SCORE = 300
 
 class App:
-	def __init__(self, matFrameCount=CONST_MAX_FRAME_PER_MATCH , matPinCount=CONST_MAX_PIN_PER_FRAME ):
+	def __init__(self, maxFrameCount=CONST_MAX_FRAME_PER_MATCH , maxPinCount=CONST_MAX_PIN_PER_FRAME ):
 
-		self.MAX_FRAME_PER_MATCH = matFrameCount			### maximum frames allowed in one match
-		self.MAX_PIN_PER_FRAME = matPinCount			### maximum pin  allowed in one frame
+		self.MAX_FRAME_PER_MATCH = maxFrameCount			### maximum frames allowed in one match
+		self.MAX_PIN_PER_FRAME = maxPinCount			### maximum pin  allowed in one frame
 
 		self.rolledPinList = []			### a list of pin numbers for each roll
 
